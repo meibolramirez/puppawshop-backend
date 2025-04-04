@@ -173,8 +173,70 @@ Se configuran rutas para el direccionamiento. Las rutas del panel de administrac
 
 ![image](https://github.com/user-attachments/assets/3ccf544e-cb49-435b-aa9e-1f004ff4ab19)
 
-## Demostración
+## Screenshots
 
+### Para guests y usuarios no administradores
+
+**Página Principal**
+
+![image](https://github.com/user-attachments/assets/6d07db8d-c091-4d12-ac21-ddc08caba2b4)
+
+**Detalle de Producto**
+
+![image](https://github.com/user-attachments/assets/836fb320-7abe-45fa-9985-5cceb89bdbd4)
+
+** Inicio de Sesión **
+Agregar al carrito como usuario no logueado, redirecciona al login
+
+![image](https://github.com/user-attachments/assets/96f21eb0-4f64-45a9-80af-e3da5d1a7c6f)
+
+Una vez logueado se puede ver el carrito y el botón de cerrar sesión
+
+![image](https://github.com/user-attachments/assets/dadc4353-0980-48d1-8c2e-3bb271296313)
+
+Al ir al carrito se observa el producto agregado
+
+![image](https://github.com/user-attachments/assets/fc7fcc87-b4f7-47ee-b462-51994514eb64)
+
+El logout redicciona a la página principal
+
+![image](https://github.com/user-attachments/assets/e3ea5395-d71e-4d6e-90b3-9b5fca7a966a)
+
+Al darle click en Iniciar Sesión e iniciar sesion con usuario administrador, redirecciona al panel de administración
+
+![image](https://github.com/user-attachments/assets/e518677a-44ca-417b-97d2-a003d15034c0)
+
+![image](https://github.com/user-attachments/assets/a4bef0ce-4c19-4adf-9995-bdca6bc378f8)
+
+**Panel de Administració**
+
+**Productos**
+
+Listado
+
+![image](https://github.com/user-attachments/assets/7584a1cb-6c3b-4ab9-83e6-37285d9ddbaf)
+
+Editar
+
+![image](https://github.com/user-attachments/assets/630f20d9-d1ad-4e3b-9030-70a0c414fb82)
+
+Eliminar
+
+![image](https://github.com/user-attachments/assets/644567d4-cb85-4888-b378-25795710c255)
+
+**Categorías**
+
+Listado
+
+![image](https://github.com/user-attachments/assets/3d30ad65-96f1-4cd0-9aeb-c3ee16697664)
+
+Editar
+
+![image](https://github.com/user-attachments/assets/27f8696e-9193-4ab8-832e-a755a172b575)
+
+Eliminar
+
+![image](https://github.com/user-attachments/assets/4670b078-1530-4136-bf97-a1609a9cb178)
 
 ## Licencia
 Fines académicos
