@@ -185,7 +185,7 @@ Se configuran rutas para el direccionamiento. Las rutas del panel de administrac
 
 ![image](https://github.com/user-attachments/assets/836fb320-7abe-45fa-9985-5cceb89bdbd4)
 
-** Inicio de Sesión **
+**Inicio de Sesión**
 Agregar al carrito como usuario no logueado, redirecciona al login
 
 ![image](https://github.com/user-attachments/assets/96f21eb0-4f64-45a9-80af-e3da5d1a7c6f)
@@ -238,14 +238,39 @@ Eliminar
 
 ![image](https://github.com/user-attachments/assets/4670b078-1530-4136-bf97-a1609a9cb178)
 
+## Chat Bot con Open IA
+
+Se integra un chatbot con IA que ayuda a los usuarios a encontrar productos en el sitio web de Pup Paw Shop. \
+El chatbot utiliza la API de OpenAI para procesar las consultas de los usuarios y buscar en el catálogo de productos, ofreciendo sugerencias relevantes según sus preferencias.
+
+## Funcionalidades 
+
+- Chatbot con IA para consultar productos.
+- Combina productos según las consultas de los usuarios usando palabras clave del nombre y la descripción del producto.
+- Muestra una ventana de chat flotante con la que los usuarios pueden interactuar.
+
+## Configurar la API de OpenAI
+
+Crea una cuenta de OpenAI y genera una clave API desde la plataforma de OpenAI.
+
+Agrega la clave API a tu archivo .env:
+
+```
+OPENAI_API_KEY=tu-openai-api-key-aqui
+```
+
+## Implementación de la función Chatbot
+
+El componente principal es ChatBot Livewire. Envía consultas de usuario a la API de OpenAI, recupera sugerencias de productos basadas en palabras clave extraídas del mensaje del usuario y las muestra.
+
+- Entrada del usuario: El mensaje del usuario se analiza en palabras clave.
+- Solicitud a la API de OpenAI: Las palabras clave se envían a la API de OpenAI y la respuesta se utiliza para generar una consulta.
+- Consulta a la base de datos: Con base en las palabras clave, se consulta el catálogo de productos para encontrar productos compatibles.
+- Respuesta: El chatbot responde con los detalles del producto o informa al usuario si no se encuentran productos.
+
+## Demontración
+
+https://github.com/user-attachments/assets/f3a5087e-6b3d-4c53-b246-9b7cc34772fc
+
 ## Licencia
 Fines académicos
-
-
-
-
-
-
-
-
-
