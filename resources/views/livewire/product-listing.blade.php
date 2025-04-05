@@ -10,6 +10,8 @@
         @else
             <h2 class="text-2xl text-gray-300">No se han encontrado productos para esta categoría</h2>
         @endif
-        
+    </div>
+    <div>
+        <livewire:chat-bot />
     </div>
 </div>

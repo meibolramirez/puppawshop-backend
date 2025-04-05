@@ -9,11 +9,13 @@
         @vite('resources/js/app.js')
         @livewireStyles
         <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     </head>
     <body>
         <livewire:header/>
         {{ $slot }}
         <livewire:footer/>
+        @livewireScripts
     </body>
 </html>
